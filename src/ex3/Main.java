@@ -9,9 +9,9 @@ public class Main {
 	public static void main(String[] args) {
 		RegistroPresenze registro = new RegistroPresenze();
 
-		registro.aggiungiPresenza("Zlatan Ibrahimovich", 10);
-		registro.aggiungiPresenza("Mike Maignan", 13);
-		registro.aggiungiPresenza("Rafael Leao", 5);
+		registro.aggiungiPresenza("Zlatan Ibrahimovich", 11);
+		registro.aggiungiPresenza("Mike Maignan", 16);
+		registro.aggiungiPresenza("Rafael Leao", 17);
 
 		registro.salvaSuFile("presenze.txt");
 
